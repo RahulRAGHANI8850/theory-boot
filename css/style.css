@@ -1,0 +1,302 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* header and banner */
+.header-wrapper {
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/dd.jpg);
+    background-color: gray;
+    border-top: 10px solid #5385c1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#my-navigation {
+    background: transparent;
+    border: none;
+    position: relative;
+    top: 30px;
+    color: #fff;
+}
+
+#my-navigation a {
+    font-size: 20px;
+    color: #fff;
+}
+
+#my-header .icon-bar {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.banner {
+    position: relative;
+    top: 150px;
+    text-align: center;
+    padding: 5px;
+}
+
+.banner h1 {
+    color: #fff;
+    font-weight: 100;
+    font-size: 60px;
+    padding: 5px;
+}
+
+.banner p {
+    font-weight: 100;
+    word-spacing: 2px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+
+/* three blogs starts here */
+#three-blogs {
+    padding: 40px;
+}
+
+#three-blogs #blog {
+    padding: 20px;
+}
+
+#blog h2 {
+    color: #5385c1;
+    font-size: 25px;
+    font-weight: 200;
+    padding-bottom: 15px;
+}
+
+#blog p {
+    color: lightgray;
+    font-size: 12px;
+    padding-bottom: 25px;
+}
+
+#blog button {
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 0px;
+}
+
+.add-border {
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+}
+
+/* team starts here  */
+.team {
+    padding: 40px 10px;
+    width: 100%;
+    background-color: #5385c1;
+}
+
+.team-logo {
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+    padding-bottom: 60px;
+}
+
+.team-logo h1 {
+    font-size: 50px;
+}
+
+.team .team-members {
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+/* two blogs starts here */
+.two-blogs-sec {
+    width: 100%;
+    padding: 20px;
+}
+
+.two-blogs {
+    padding: 10px 30px 30px 30px;
+    margin-top: 50px;
+}
+
+.two-blog-logo {
+    color: grey;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+.two-blog-logo h1 {
+    font-size: 50px;
+}
+
+.two-blogs h3 {
+    color: #5385c1;
+    margin: 30px 0px;
+}
+
+.two-blogs p {
+    color: #dbdbdb;
+    margin: 30px 0px;
+}
+
+.two-blogs-sec .two-blogs button {
+    width: 85px;
+    height: 40px;
+    border-radius: 0px;
+}
+
+.two-blogs img {
+    width: 100%;
+}
+
+/* footer */
+.footer {
+    padding: 0px 0px 20px 0px;
+}
+
+.footer-content p {
+    color: #dbdbdb;
+    font-size: 15px;
+}
+
+.font-awesome {
+    text-align: right;
+}
+
+.font-awesome span {
+    margin-right: 30px;
+    font-size: 22px;
+    color: #5385c1;
+}
+
+
+
+/* media query*/
+@media only screen and (max-width: 766px) {
+    /* banner */
+    .banner h1 {
+        font-size: 50px;
+    }
+    .banner p {
+        font-size: 10px;
+    }
+    
+    /* three blogs */
+    #three-blogs
+    {
+        width:100%;
+        padding:80px; 
+        margin: 0 auto;
+        line-height: 30px;    
+    }
+    #three-blogs h2
+    {
+        font-size:35px;
+    }
+    #three-blogs p
+    {
+        font-size: 20px;
+    }
+    .add-border
+    {
+        border: none;
+    }
+
+    /* team */
+    .team-logo h1
+    {
+        font-size: 45px;
+    }
+    .team
+    { 
+        padding: 40px 0px;
+    }
+    .team-members
+    {
+        margin: 0 auto;
+        width: 40%;
+        height: 50%;
+    }
+    .team-members img
+    {
+        width: 90%;
+    }
+    .team-members h5
+    {
+        font-size: 11px; 
+    }
+    /* two blogs */
+    .two-blog-logo h1
+    {
+        font-size: 40px;
+    }
+    .two-blogs
+    {   
+        width: 100%;
+        padding: 50px;
+        padding-top: 0px; 
+    }
+    .two-blogs p
+    {
+        line-height: 30px;        
+    }
+    /* footer */
+    .footer span{
+        font-size: 12px;
+        margin-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 587px) {
+    /* banner */
+    .banner h1 {
+        font-size: 40px;
+    }
+    .banner p {
+        font-size: 9px;
+    }
+    /* three blogs */
+    #three-blogs
+    { 
+        padding: 30px;
+        width: 85%;
+    }
+    #three-blogs h2
+    {
+        font-size: 30px;
+    }
+    #three-blogs p
+    {
+        font-size:13px;
+    }
+    .footer p
+    {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 416px) {
+    .banner h1 {
+        font-size: 35px;
+    }
+    .banner p {
+        font-size: 6px;
+    }
+    #three-blogs
+    {
+        padding: 60px;
+        width: 100%;
+    }
+    #three-blogs h2
+    {
+        font-size: 30px;
+    }
+    #three-blogs p
+    {
+        font-size: 13px;
+    }   
+}
